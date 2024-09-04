@@ -1,0 +1,18 @@
+Catalogue structure:
+
+ID: event identification number.
+day: day in which the event was recorded.
+month: month in which the event was recorded.
+year: year in which the event was recoded.
+hour: hour in which the event was recorded UTC.
+minute: minute in which the event was recorded UTC.
+second: second in which the event was recorded UTC.
+longitude: longitude in degrees WGS84.
+latitude: latitude in degrees WGS84.
+depth: depth in kilometers.
+mw: moment magnitude.
+err_mw: uncertainty in the mw.
+mc: completeness magnitude.
+*cluster_ID: identification number of the cluster to which the event belongs to.
+
+*when applicable. In the case of Spain the declustering algorithm used was Gardner-Knopoff (GK74). Gardner, J. K. and Knopoff, L.: Is the sequence of earthquakes in Southern California, with aftershocks removed, Poissonian?, Bulletin of the Seismological Society of America, 64, 1363–1367, https://doi.org/10.1785/bssa0640051363, 1974.
